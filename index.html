@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/0cf68700b4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script type="module" src="js/main.js"></script>
+    <title>Rest countries</title>
+  </head>
+  <body class="transition-for-bg">
+    <header>
+      <div class="container">
+        <div class="flex">
+          <h1>Where in the world?</h1>
+          <p class="btn-light-dark"><i class="light fa-regular fa-moon"></i>
+            <i class="dark fa-solid fa-moon"></i> Dark Mode</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="search">
+      <div class="container">
+        <div class="flex">
+          <div class="input-field flex">
+            <i type="submit" class="icon fa-solid fa-magnifying-glass"></i>
+            <input
+              type="search"
+              id="country-search"
+              placeholder="Search for a country..."
+            />
+          </div>
+          
+          <div class="select-continents">
+            <p class="select-continents-text">Filter By Region <i class="fa-sharp fa-solid fa-chevron-down icon-3x"></i></p>
+            <div class="display-regions">
+              <p data-region="Africa">Africa</p>
+              <p data-region="Americas">America</p>
+              <p data-region="Asia">Asia</p>
+              <p data-region="Europe">Europe</p>
+              <p data-region="Oceania">Oceania</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="all-countries">
+      <div class="container">
+        <!-- <div class="err-message">
+          <p>Can not get data from server!</p>
+        </div> -->
+        <div class="countries-grid js-class grid--4-cols">
+          <!-- <div class="country-item">
+            <div class="">
+              <img src="country" alt="Country" />
+            </div>
+            <div class="country-details">
+              <h2>Germany</h2>
+              <div class="details-country-grid">
+                <p>Population: <span>71,342,543</span></p>
+                <p>Region: <span>Europe</span></p>
+                <p>Capital: <span>Berlin</span></p>
+              </div>
+            </div>
+          </div> -->     
+        </div>
+        
+        <div class="country-itself">
+            <button class="go-back"><i class="fa-solid fa-arrow-left-long"></i> Back</button>
+
+            <!-- <div class="country-flag-details grid--2-cols">
+              <img src="flag">
+              <div class="country-details">
+                <ul class="country-details-list">
+                  <li>
+                    Native Name: <span>Belgie</span>
+                  </li>
+                  <li>
+                    Population: <span>11,319,511</span>
+                  </li>
+                  <li>
+                    Region: <span>Europe</span>
+                  </li>
+                  <li>
+                    Sub Region: <span>Western Europe</span>
+                  </li>
+                  <li>
+                    Capital: <span>Brussels</span>
+                  </li>
+                  <li>
+                    Top Level Domain: <span>.be</span>
+                  </li>
+                  <li>
+                    Currencies: <span>Euro</span>
+                  </li>
+                  <li>
+                    Languages: <span>Dutch, French, German</span>
+                  </li>
+                </ul>
+
+                <div class="border-countries">
+                  <div>
+                    <span>Border countries: </span>
+                    <ul>
+                      <li>France</li>
+                      <li>Germany</li>
+                      <li>Netherlands</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+
+      </div>
+    </section>
+  </body>
+</html>
