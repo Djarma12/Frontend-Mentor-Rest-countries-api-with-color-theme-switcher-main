@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Djarma12/Frontend-Mentor---Rest-countries-api-with-color-theme-switcher-)
+- Solution URL: (https://www.frontendmentor.io/solutions/html-css-js-3Q8S28Uod_)
 - Live Site URL: (https://dusan-rest-countries-api-call.netlify.app/)
 
 ## My process
