@@ -1,6 +1,8 @@
 # Rest-Countries-API-call
 
-rest countries is an application where we can view and search data about all countries. Clicking on the country itself opens a field with detailed information about it.
+![desktop-preview](https://user-images.githubusercontent.com/112414082/210043070-03de1969-2ef7-490d-b337-18c6a4942cd8.jpg)
+
+Rest countries is an application where we can view and search data about all countries. Clicking on the country itself opens a field with detailed information about it.
 
 You can view the project live here:
 [Rest-Countries-API-call](https://dusan-rest-countries-api-call.netlify.app/)
