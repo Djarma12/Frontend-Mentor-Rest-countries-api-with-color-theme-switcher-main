@@ -52,6 +52,17 @@ To start the project, it is necessary to download the files from the github repo
 - You can view my profile on the platform where I downloaded the template here: [Frontend Mentor Profile](https://www.frontendmentor.io/profile/Djarma12)
 - You can see the specific work with this project here: [Frontend Mentor Project](https://www.frontendmentor.io/solutions/html-css-js-3Q8S28Uod_)
 
+### Method References
+
+- This input method takes a parameter that the user entered in the input. Through it, it searches the array with all the countries. If you find one, it will show the details of that country: <br>
+  `foundCountry(countryInput){...};`
+
+- The method displays all border countries, regardless of how many there are for the country for which the user has viewed details: <br>
+  `borderCountries(){...};`
+
+- Each time the user returns from the country details page to the page showing all countries, this method clears the DOM data for the country itself so that two or more countries are not displayed the next time: <br>
+  `deleteCountryItself(){...};`
+
 [Back To The Top](#rest-countries-api-call)
 
 ---
