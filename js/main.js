@@ -50,8 +50,8 @@ const afterApiCall = function () {
   fieldAllCountries.addEventListener("click", function (e) {
     console.log(e);
     console.log(e.target);
-    if (e.path[0].classList[0] === "border-countries") {
-      countries.foundBorderCountry(e.path[0].innerHTML);
+    if (e.target.classList[0] === "border-countries") {
+      countries.foundBorderCountry(e.target.innerHTML);
     }
 
     if (e.target.closest(".country-item")) {
